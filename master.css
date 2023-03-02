@@ -1,0 +1,61 @@
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 1.2vi;
+	color: #E0E0E0;
+	background-image: url("assets/background/background.webp");
+	background-color: #212121;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	display: flex;
+	justify-content: center;
+	margin:0;
+	padding:0;
+}
+.social{
+	width: 32px;
+	height: 32px;
+	margin: 0 0.75rem;
+}
+.body-guts {
+	align-content: center;
+    background: rgba(49, 49, 49, 0.9);
+    border-left: solid rgba(255, 255, 255, 0.2) 5px;
+    border-right: solid rgba(255, 255, 255, 0.2) 5px;
+    display: grid;
+    justify-content: center;
+	max-width: 640px;
+	width: 80%;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+    overflow-x: hidden;
+	backdrop-filter: blur(10px);
+}
+.body-containers{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+header {
+	width: 100%;
+	border-bottom: solid rgba(255, 255, 255, 0.2) 3px;
+	margin-bottom:15px;
+}
+footer {
+	width: 100%;
+	border-top: solid rgba(255, 255, 255, 0.2) 3px;
+	margin-top:15px;
+	justify-content: center;
+	align-content: center;
+}
+address {
+		font-size: .75rem;
+}
+main {
+		width: 100%
+}
